@@ -9,8 +9,8 @@ TOKEN = '7319891408:AAGgZIs6QPVBa_CaSkIl4hZZOiav-7jzV6Q'
 MONGO_URI = 'mongodb+srv://spize_db_user:SpizeBBQ@spizebbq.e7r0kwj.mongodb.net'
 
 RUST_BINARY = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'rust_flood')
-DEFAULT_TASKS = 20        # safe for laptop
-MAX_SPEED_MBPS = 50       # your upload headroom
+DEFAULT_TASKS = 50        # safe for laptop
+MAX_SPEED_MBPS = 100       # your upload headroom
 MODE = "both"             # combined UDP + TCP
 
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
