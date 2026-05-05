@@ -1,0 +1,11 @@
+how to use c file
+upload it in codepsace our in vps 
+gcc attack.c -o attack -lpthread -static
+your binary file is ready to ude 
+binary file name attack
+to change name of binary file use mv command 
+mv attack newnameofbinaryfile
+
+
+leak by @SOULCRACKS
+MUST JOIN OUR CHANNEL AND THIS IS FREE FILE 🗄️
